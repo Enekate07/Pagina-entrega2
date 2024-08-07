@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Este es el HEADER..*/
+
+h1 {
+    font-family: "Designer";
+    src: url(./fonts/DESIGNER.otf);
+    color: #453052;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 200px;
+}
+.colorlinea {
+    color: #453052;
+}
+header {
+    background-color: #c19cd6;
+}
+header nav ul {
+    
+    background-color: #453052;
+    list-style-type: none;
+}
+header nav li {
+    margin: 20px;
+    display: inline-block;
+}
+header nav ul li a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-width: 10px solid;
+    padding: 77px
+}
+header span img{
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 150px;
+    height: 150px;
+    text-align: left;
+}
+h2 {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+    color: #453052;
+    text-decoration: underline;
+}
+body {
+    background-color: #c9c9c9;
+}
+ /* Este es el codigo de las 3 imagenes juntas... */
+.imagenes3 {
+    margin: 15px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.imgdesc {
+    text-align: center; 
+    flex: 0 1 30%; 
+    margin-bottom: 20px; 
+}
+
+.imgdesc img {
+    width: 100%; 
+    height: auto;
+}
+
+.imgdesc p {
+    margin-top: 10px; 
+    font-size: 16px; 
+    color: #000000; 
+    }
+.quienessomos {
+    margin: 5px;
+    padding: 5px;
+    text-align: start;
+    font-size: 40px;
+    color: #453052;
+    text-decoration: underline;
+}
+.quienessomostext {
+    text-align: center;
+    border-radius: 2%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color:#ffffff93
+}
+footer {
+    background-color: #453052;
+}
+.appusadas {
+    padding: 15px;
+    color: #ffffff;
+    margin: 10px;    
+    justify-content: space-around;
+}
+.appusadasimg {
+    display: flex;
+    text-align: start; 
+    flex: 0 1 5%; 
+    margin-bottom: 10px;
+}
+.appusadasimg img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 2%; 
+    height: auto;
+}
+.appusadas a {
+    padding: 15px;
+    color: #ffffff;
+    text-align: end;
+}
+/* ACA TERMINE LA PRIMER PAGINA... Se pueden usar algunos codigos.*/
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.formcompleto {
+    font-size: 40px;
+    flex: 1;
+    padding: 20px;
+}
+.textareacontacto {
+    width: 300px; 
+    height: 150px; 
+    padding: 10px;
+    font-size: 14px;
+}
+.imgwsp {
+    max-width: 300px;
+    height: auto;
+}
+.imgredes a{
+    text-decoration: none;
+}
+.imgredes img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 0.5%;
+}
+.textareatodo {
+    width: 200px;
+    height: 15px;
+    padding: 10px;
+    font-size: 14px;
+}
+.botongrande {
+    width: 150px;
+    height: 40px;
+}
+/* ACA TERMINE LO DE CONTACTO.. Algunos se pueden usar.*/
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.servicios1 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.imgservicios {
+    width: 350px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.descservicios {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+}
+/* ACA TERMINE LO DE SERVICIOS.. Se pueden usar algunas cosas.*/
+.mapa {
+    display: flex;
+    justify-content: center; /* Este codigo es para centrar horizontalmente (recordar)*/
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.lugar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lugarimgtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imglugar {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.textlugar {
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* ACA TERMINE LA DE UBICACION QUE FUE LA "MAS SENCILLA"*/
+
+.reseñas {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.imgreseñas {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 30px; 
+}
+
+.imgreseñas img {
+    border-radius: 50%;
+    width: 600px; 
+    height: auto; 
+    margin: 0 30px;
+}
+.textreseña {
+    margin-left: 50px;
+}
+.textreseña2 {
+    margin-left: 50px;
+    width: 300px; 
+    height: 150px; 
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
